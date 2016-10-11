@@ -1,0 +1,35 @@
+#navbar {
+	border: 5px;
+	text-align: center;
+	padding: 5px;
+  	background-color: black;
+	margin-bottom:10px;
+
+}
+
+a {
+	color: white;
+}
+.nav a {
+	color:white;
+	text-decoration: none;
+}
+.article {
+	background-color: orange;
+	border: 5px;
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#article-first {color: 
+	blue;
+}
+
+#article-second {color: 
+	green;
+}
+
+#article-third {color:
+	yellow;
+}
