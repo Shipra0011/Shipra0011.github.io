@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+/* GENERAL
+----------------------------  */
+
+body {
+  font-family: "Lato", sans-serif; 
+}
+
+
+h1, h2, h3 {
+  font-weight: 300;
+
+}
+
+
+h2 a {
+  color: #000 !important;
+}
+
+
+header h2, #sidebar  {
+  color: #8d8d8d;
+}
+
+
+h3, span, small {
+  color: #cccccc;
+}
+
+
+h5 {
+  font-weight: bold;
+  text-align: right;
+}
+
+
+
+/* link states */
+
+a {
+  color: #f32e2e;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+
+a:visited {
+  text-decoration: none;
+}
+
+
+a:focus, a:hover, a:active {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+
+
+/* Contain floats */
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+
+/* CONTAINERS
+----------------------------  */
+
+#container {
+  margin: 10px auto;
+  max-width: 800px;
+  width: 90%;
+  padding: 20px;  
+}
+
+
+#content {
+  clear: both;
+  max-width: 68%;
+  float: left;
+}
+
+
+#sidebar {
+  max-width: 30%;
+  margin-left: 75%;
+  margin-top: 75px;
+}
+
+
+
+/* HEADER
+----------------------------  */
+
+h1 a { 
+  color: #f32e2e;
+  text-decoration: none !important;
+  font-size: 1.1em;
+}
+
+
+header h2 {
+  position: relative;
+  left: 198px;
+  bottom: 27px;
+  font-size: 1.1em;
+}
+
+
+
+/* NAVIGATION
+----------------------------  */
+
+#mainnav ul {
+  list-style-type: none;
+  overflow: hidden;
+  width: inherit;
+  margin: -15px auto 30px;
+} 
+
+
+#mainnav li {
+  width: 130px;
+  height: 40px;
+  margin: 0px;
+  border: 1px solid #fff;
+  background-color: #000;
+  float: left;
+}
+
+
+#mainnav a {
+  display: block;
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+/* MAIN CONTENT
+----------------------------  */
+
+section {
+
+  margin: 40px 0 40px;
+}
+
+
+h2 {
+  padding: 5px 0 8px; 
+  margin-bottom: 5px;
+}
+
+
+h3 {
+  font-size: 1.7em;
+  padding: 5px 0 5px;
+
+}
+
+
+span {
+  font-size: 5em;
+  float: left;
+  margin-right: 15px;
+}
+
+
+.contentp {
+  margin-top: 20px; 
+  margin-bottom: 40px; 
+}
+
+
+#content img {
+  max-width: 100%;
+}
+
+
+
+/* SIDEBAR
+----------------------------  */
+
+aside {
+  margin: 36px 0 36px;
+}
+
+
+h4 {
+  padding-bottom: 10px;
+}
+
+
+aside p, aside a {
+  font-size: .90em;
+}
+
+
+aside li {
+  margin: 3px 0 3px 26px;
+}
+
+
+#ad p {
+  background-color: #8d8d8d;
+  color: #000;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 60px;
+} 
+
+
+
+/* PAGE FOOTER
+----------------------------  */
+
+footer {
+  clear: both;
+  margin-top: 20px;
+}
+
+
+ footer nav {
+  margin-bottom: 15px;
+}
+
+
+ footer a {
+  margin: 0 5px 0;
+ }  
