@@ -1,0 +1,46 @@
+body {
+  background: #ccc;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace
+}
+
+
+
+div:first-of-type {
+  width: 906px;
+  margin: auto
+}
+
+header>h1 {
+  line-height: 4em;
+  font-size: 2em;
+  text-align: center
+}
+
+nav {
+  text-align: center
+}
+
+nav>ul {
+  margin: 10px
+}
+
+nav>ul>li {
+  display: inline-block;
+  width: 17%;
+  text-align: center;
+  padding: 5px
+}
+
+section {
+  min-height: 450px
+}
+
+aside {
+  width: 220px;
+  min-height: 450px;
+  float: right
+}
+
+footer {
+  min-height: 4em
+}
