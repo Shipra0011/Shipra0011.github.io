@@ -1,37 +1,57 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>The Lung Cancer and Merry Squirrel Project</title>
+		<title>The Tree Project</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/styles.css"> 
 
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
 
+		
 	</head>
+
 	<body> 
-	<body background="img/trees1.jpg">
-
-
+	<body background="grey">
 	<nav>
 	<ul>
-		<li><a href="#">CALCULATE LEAVES AND AIR</a></li>
-		<li><a href="#">LUNG CANCER</a></li>
-		<li><a href="#">SQUIRRELS</a></li>
-		<li><a href="#">TREES</a></li>
+		<li><a href="#">Tree Project</a></li>
+		<li><a href="#">Contact</a></li>
 	</ul>
 </nav>
-  
-</div>  
-
-<div class="clearfix">
+ 
   <section class="one">
-    <p>Merry Squirrels hide seeds, and these seeds grow to oak trees.</p>
-  </section>
-
-  <section class="two">
     <p>Trees provide fresh air and may prevent lung cancer.</p>
-  </section>
+    <p>One acre of mature trees provides oxygen to...how many people?</p>
+ </section>
 </div>
-<p>
-<img src="img/squirrel1.jpg" width="300" height="250">
+</div>
+
+
+<h1><center>Trees providing oxygen</h1></center>
+
+<center><p><input id="t" size="50" onkeyup="convert('T')">acre tree(s)</p></center>
+
+<center><p><input id="n" size="50" onkeyup="convert('N')"># of people</p></center>
+
+
+<script>
+function convert(trees) {
+    var x;
+    if (trees == "T") {
+        x = document.getElementById("t").value * 18;
+        document.getElementById("n").value = Math.round(x);
+    } else {
+        x = (document.getElementById("t").value * 0);
+        document.getElementById("n").value = Math.round(x);
+    }
+}
+</script>
+
+<div class="contact-me">
+Created by Shipra.
+</div>
+
+
+
 
 </body>
 </html>

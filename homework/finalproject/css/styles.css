@@ -2,9 +2,7 @@ nav {
   text-align:center;
   width: 100%;
   background: #b22593;
-  padding: 0;
-  margin: 0;
-  height: 60px;
+  height: 40px;
   position:relative;
 }
 
@@ -14,7 +12,6 @@ nav ul {
   padding:0 20px;
   margin: 0;
   height: 60px;
-
 }
 
 
@@ -25,12 +22,10 @@ nav ul li {
 
 nav ul li a {
   color:#333333;
-  display:block;
-  padding:0px 40px;
+  padding:0px 20px;
   text-decoration:none;
-  float: left;
   height: 60px;
-   line-height: 60px;
+  line-height: 60px;
 }
 
 nav ul li:hover {
@@ -57,12 +52,13 @@ nav ul ul {
   left: 0px;
 }
 
+
 .clearfix {
   overflow: hidden;
 }
 
 section {
-  width: 40%;
+  width: 90%;
   min-height: 200px;
   font-weight: bold;
   text-transform: uppercase;
@@ -72,14 +68,15 @@ section {
   padding: 5%;
   text-align: center;
   float: left;
+  margin-bottom: 20px;
 }
 
 .one {
   background-color: green;
 }
 
-.two {
-  background-color: purple;
+.contact-me {
+  margin-top: 160px;
+  color: black;
 }
-
 
